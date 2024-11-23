@@ -1,6 +1,8 @@
 ---
-app_mylar3_enabled: false
-app_mylar3_puid: '16704'
-app_mylar3_pgid: '16704'
-app_mylar3_tz: "Europe/Zurich"
-app_mylar3_dir: "/opt/app-mylar3"
+role_mylar3_image: 'lscr.io/linuxserver/mylar3'
+role_mylar3_container: 'mylar3'
+role_mylar3_puid: '1000'
+role_mylar3_pgid: '1000'
+role_mylar3_tz: 'Europe/Zurich'
+role_mylar3_dir: '/opt/app-mylar3'
+role_mylar3_network: 'app-network'
